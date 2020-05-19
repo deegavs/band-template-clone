@@ -1,0 +1,37 @@
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-album, .biography-description {
+        margin-bottom: 25px;
+    }
+    nav.mainmenu {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+    .band-member, .tour-latest-one, .latest-single-blog {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 25px;    
+    }
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .latest-album-thumb, .band-member, .single-album, .tour-latest-one, .biography-description, .latest-single-blog {
+        margin-bottom: 25px;
+    } 
+    .home-slide-caption {
+        text-align: center;
+    }
+    nav.mainmenu {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+    .home-slide-caption a, .home-slide-caption p {
+        display: none;
+    }
+}
