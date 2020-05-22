@@ -439,6 +439,7 @@ nav.mobileMenu ul li a:hover {
 }
 .member-img {
     position: relative;
+    width: 100%;
 }
 .member-social-profile {
     position: absolute;
